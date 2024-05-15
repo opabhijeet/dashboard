@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular-webfont.woff');
+}
+*{
+    font-family: Roboto;
+    border: 1px solid red;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0px;
+}
+.sidebar{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    gap: 3rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.sidebar>div>div{
+    margin: 0.5rem;
+}
